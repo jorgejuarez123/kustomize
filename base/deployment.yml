@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-nodejs
-          image: jorgejuarez123/demo-ecr:latest
+          image: jorgejuarez123/demo-ecr:1
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
