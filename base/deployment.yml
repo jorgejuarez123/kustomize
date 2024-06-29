@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demo-nodejs
-  namespace: argocd
+  namespace: demo-node-js
   labels:
     app: demo-nodejs
 spec:
@@ -19,6 +19,6 @@ spec:
           image: jorgejuarez123/demo-ecr:1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8081
+            - containerPort: 8080
       imagePullSecrets:
         - name: regcred
