@@ -21,4 +21,4 @@ spec:
           ports:
             - containerPort: 8081
       imagePullSecrets:
-        - name: aws-secret
+        - name: regcred
