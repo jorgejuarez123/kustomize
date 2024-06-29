@@ -14,4 +14,4 @@ spec:
       protocol: TCP
   selector:
     app: demo-nodejs
-  type: NodePort
+  type: ClusterIP
