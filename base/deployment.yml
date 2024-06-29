@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
         - name: demo-nodejs
-          image: 789356455304.dkr.ecr.ap-south-1.amazonaws.com/demo-ecr:latest
+          image: doker.io/jorgejuarez123/demo-ecr:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
       imagePullSecrets:
         - name: aws-secret
