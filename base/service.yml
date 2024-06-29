@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: demo-nodejs-service
-  namespace: argocd
+  namespace: demo-node-js
   labels:
     app: demo-nodejs
 spec:
